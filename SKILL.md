@@ -25,7 +25,7 @@ VERY IMPORTANT: To avoid what is often referred to as "AI slop", avoid using exc
 
 Run the initialization script to create a new React project:
 ```bash
-bash scripts/init-artifact.sh <project-name>
+bash bash scripts/init-artifact.sh <project-name>
 cd <project-name>
 ```
 
@@ -72,3 +72,7 @@ To test/visualize the artifact, use available tools (including other Skills or b
 ## Reference
 
 - **shadcn/ui components**: https://ui.shadcn.com/docs/components
+
+## Running the bundled scripts
+
+The scripts are distributed as text files and may not have the executable bit set after download. Invoke them with `bash` as shown above, or run `chmod +x scripts/*.sh` before executing them directly.
