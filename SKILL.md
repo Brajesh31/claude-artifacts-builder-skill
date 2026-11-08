@@ -7,9 +7,9 @@ license: Complete terms in LICENSE.txt
 # Artifacts Builder
 
 To build powerful frontend claude.ai artifacts, follow these steps:
-1. Initialize the frontend repo using `scripts/init-artifact.sh`
+1. Initialize the frontend repo using `bash scripts/init-artifact.sh`
 2. Develop your artifact by editing the generated code
-3. Bundle all code into a single HTML file using `scripts/bundle-artifact.sh`
+3. Bundle all code into a single HTML file using `bash scripts/bundle-artifact.sh`
 4. Display artifact to user
 5. (Optional) Test the artifact
 
