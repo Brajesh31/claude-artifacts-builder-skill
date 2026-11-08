@@ -30,3 +30,7 @@ Ask your AI coding assistant to use **Artifacts Builder** when working on a rela
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+## Additional Resources
+
+Added `scripts/init-artifact.sh` to scaffold a starter artifact and `scripts/bundle-artifact.sh` to produce a single HTML file. Run with `bash scripts/init-artifact.sh <project-name>` and `bash scripts/bundle-artifact.sh <project-directory>`.
