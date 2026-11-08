@@ -25,7 +25,7 @@ VERY IMPORTANT: To avoid what is often referred to as "AI slop", avoid using exc
 
 Run the initialization script to create a new React project:
 ```bash
-bash bash scripts/init-artifact.sh <project-name>
+bash scripts/init-artifact.sh <project-name>
 cd <project-name>
 ```
 
